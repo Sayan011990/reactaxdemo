@@ -1,0 +1,25 @@
+.skip-content-wrapper {
+    background: #f1f1f1;
+}
+
+.skip-content-wrapper ul{
+    padding: 0;
+    margin: 0;
+}
+
+.skip-content-wrapper ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.skip-content-wrapper ul li a{
+    color: blue;
+    padding: 5px;
+}
+
+.skip-content-wrapper ul li a:hover,
+.skip-content-wrapper ul li a:focus{
+    outline:2px dotted brown;
+    background: yellow;
+}

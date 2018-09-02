@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 }
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:hover,
+a:focus {
+  outline: 1px dotted brown;
+  background: yellow;
+}
+@import './index-frag.css';
